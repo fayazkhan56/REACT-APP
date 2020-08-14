@@ -33,7 +33,7 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: deploy react app  to surge
-      run: surge ./ BASIC-REACT-APP-FAYAZ.surge.sh --token ${{secrets.SECRET1}}
+      run: surge ./build BASIC-REACT-APP-FAYAZ.surge.sh --token ${{secrets.SECRET2}}
       
     # Runs a single command using the runners shell
     - name: Run a one-line script
