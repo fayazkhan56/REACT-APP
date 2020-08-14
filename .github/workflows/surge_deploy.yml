@@ -30,13 +30,13 @@ jobs:
       with:
           cmd: install
      #build react app with yarn
-    - name: build react app 
+    - name: Build react app 
       run: yarn build   
       #install surge 
     - name: install surge
       run: npm install -g surge
     - name: deploy react app  to surge
-      run: surge ./ build BASIC-REACT-APP-FAYAZ.surge.sh --token ${{secrets.SECRET2}}
+      run: surge ./build BASIC-REACT-APP-FAYAZ.surge.sh --token ${{secrets.SECRET2}}
       
     # Runs a single command using the runners shell
     - name: Run a one-line script
