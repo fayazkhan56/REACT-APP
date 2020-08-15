@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './hello.css';
+import  room from './room';
 
 function App({name,age}) {
 return <div className="myround">
@@ -20,6 +21,10 @@ return <div className="myround">
             <li>banana</li>
             <li>peach</li>
          </ul>
+         <room>
+               
+
+         </room>
     </div>
      
 }
