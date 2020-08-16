@@ -4,8 +4,7 @@ import './App.css';
 import room from './room';
 
 function App() {
-return {
-    
-};
+return (
+);
 }
 export default App;
